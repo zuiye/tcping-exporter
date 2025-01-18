@@ -1,0 +1,22 @@
+targets:
+  - host: google.com
+    port: 80
+    name: jjj测试
+  - host: 8.8.8.8
+    port: 443
+  - host: example.com
+    port: 22
+
+# targets:
+#   - host: 120.232.236.245
+#     port: 443
+#     name: citrix
+
+
+ping:
+  interval: 1
+  timeout: 1000
+  count: 4
+
+
+
