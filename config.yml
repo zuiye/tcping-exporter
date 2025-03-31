@@ -7,11 +7,6 @@ targets:
   - host: example.com
     port: 22
 
-# targets:
-#   - host: 120.232.236.245
-#     port: 443
-#     name: citrix
-
 
 ping:
   interval: 1
